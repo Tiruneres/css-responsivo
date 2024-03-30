@@ -19,7 +19,7 @@
             </form>
         </div>
         <div class="botao-menu">
-            <button type="button" >Abrir Menu</button>
+            <button type="button">Abrir Menu</button>
         </div>
         <nav class="container">
             <ul class="menu">
@@ -57,7 +57,7 @@
             <div class="clear"></div>
         </nav>
     </header>
-    <div class="conteudo container">
+    <div class=" container conteudo">
         <main>
             <section class="destaque">
                 <h2>Em Destaque</h2>
@@ -65,19 +65,19 @@
                     <a href="#">
                         <img src="https://via.placeholder.com/320x320" />
                         <h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                         </h3>
                     </a>
                 </article>
             </section>
-            <section>
-                <h2>Últimas Noticias</h2>
+            <section >
+                <h2>Últimas notícias</h2>
                 <div class="noticias">
                     <article class="noticia">
                         <a href="#">
                             <img src="https://via.placeholder.com/320x320" />
                             <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                             </h3>
                         </a>
                     </article>
@@ -85,7 +85,7 @@
                         <a href="#">
                             <img src="https://via.placeholder.com/320x320" />
                             <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                             </h3>
                         </a>
                     </article>
@@ -93,7 +93,7 @@
                         <a href="#">
                             <img src="https://via.placeholder.com/320x320" />
                             <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                             </h3>
                         </a>
                     </article>
@@ -101,7 +101,7 @@
                         <a href="#">
                             <img src="https://via.placeholder.com/320x320" />
                             <h3>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                             </h3>
                         </a>
                     </article>
@@ -109,13 +109,13 @@
             </section>
         </main>
         <aside>
-            <section class="novidade">
+            <section class="novidades">
                 <h2>Novidades</h2>
                 <article class="noticia">
                     <a href="#">
                         <img src="https://via.placeholder.com/320x320" />
                         <h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                         </h3>
                     </a>
                 </article>
@@ -123,7 +123,7 @@
                     <a href="#">
                         <img src="https://via.placeholder.com/320x320" />
                         <h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                         </h3>
                     </a>
                 </article>
@@ -131,12 +131,20 @@
                     <a href="#">
                         <img src="https://via.placeholder.com/320x320" />
                         <h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum molestias, omnis voluptatem a similique sit officiis
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut sapiente dicta illo aliquid officia ut maxime voluptas, vitae quo a 
                         </h3>
                     </a>
                 </article>
             </section>
         </aside>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.botao-menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
 </body>
 </html>
