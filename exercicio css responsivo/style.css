@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+hmtl {
+    background-color:#eaebec;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: #3c6bd3;
+    color: #fff;
+    padding: 8px 0;
+}
+
+
+p {
+    margin-top: 36px;
+}
+
+h2 {
+    font-size: 36px;
+    padding: 20px 0;
+    border-bottom: 1px solid #3c6bd3;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 16px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#Sobre-a-loja img{
+    height: 400px;
+    margin-right: 24px;
+}
+
+#Sobre-a-loja {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
