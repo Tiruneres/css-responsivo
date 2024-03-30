@@ -12,9 +12,8 @@ body {
 }
 
 .container {
-    max-width: 1366px;
+    max-width: 1024px;
     margin: 0 auto;
-    
 }
 
 header .container {
@@ -24,7 +23,7 @@ header .container {
 }
 
 header {
-    background-color: #3c6bd3;
+    background-color: #275dd1;
     color: #fff;
     padding: 8px 0;
     font-weight: bold;
@@ -43,10 +42,9 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    padding: 20px 0;
-    border-bottom: 1px solid #3c6bd3;
-    color: #3c6bd3;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #275dd1;
+    color: #275dd1;
 }
 
 h3 {
@@ -62,10 +60,10 @@ h3, .produto p {
 
 
 ul li{
+
     display: inline;
-    margin-right: 10px;
-    font-size: 16px;
-    
+    margin-left: 10px;
+
 }
 
 a {
@@ -80,12 +78,11 @@ a {
 .Sobre-a-loja {
     display: grid;
     grid-template-columns: 45% 55%;
-    margin: 24px 0;
+    margin: 42px 0;
 }
 
 .produto img{
-    width: 280px;
-    height: 280px;
+    width: 100%;
     margin-bottom: 36px;
 }
 
@@ -94,10 +91,12 @@ a {
     grid-template-columns: repeat(4, 24.25%);
     column-gap: 1%;
     margin: 56px 0;
+    
 }
 
 .produto p {
     margin: 16px 0;
+    
 }
 
 
@@ -105,20 +104,89 @@ button {
     padding: 8px;
     border: none;
     border-radius: 3px;
-    background-color:#3c6bd3 ;
+    background-color:#275dd1 ;
     color: #fff;
     font-weight: bold;
     width: 100%;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 640px ) {
 
+    .sobre {
+        margin-top: 36px;
+    }
 
+    .Sobre-a-loja {
+        display: block;
+    }
 
     .container {
         max-width: 90%;
+    }
+
+    .produtos {
         display: block;
+    }
+
+    .produtos .produto {
+        margin-bottom: 32px;
+    }
+
+    .Sobre-a-loja img{
+        width: 100%;
+    }
+
+    h3,
+    .produto p {
+        font-size: 24px;
     }
 
 
 }
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    .sobre {
+        margin-top: 36px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .Sobre-a-loja {
+        display: block;
+    }
+
+    .Sobre-a-loja img {
+        width: 100%;
+    }
+
+    
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        column-gap: 2%;
+        margin: 56px 0;
+        
+    }
+    
+    .produto {
+        margin: 16px 0;
+    }
+
+
+    h3,
+    .produto p {
+        font-size: 24px;
+    }
+
+}
+
+    @media screen and (min-width: 1024px){
+
+        .container {
+            max-width: 90%;
+        }
+    }
